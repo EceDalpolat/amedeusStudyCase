@@ -1,0 +1,65 @@
+{
+	"info": {
+		"_postman_id": "b2b07866-39ea-4fa6-ac18-13732b74ae85",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25813758",
+		"_collection_link": "https://warped-shuttle-134038.postman.co/workspace/Trello-Aray%25C3%25BCz-%25C3%2587a%25C4%259Fr%25C4%25B1lar%25C4%25B1~ae1ba086-9235-441b-bc47-7e7ab3d78e0f/collection/25813758-b2b07866-39ea-4fa6-ac18-13732b74ae85?action=share&creator=25813758&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "getCollection",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.getpostman.com/collections/25813758-0d0b8b0b-1ddb-4c5d-931a-938ce6c2f669?apikey=PMAK-6440748e9db4765c30ca45f3-4e87f01c0b8268ca6f75491bcb14450d2a",
+					"protocol": "https",
+					"host": [
+						"api",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"25813758-0d0b8b0b-1ddb-4c5d-931a-938ce6c2f669"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "PMAK-6440748e9db4765c30ca45f3-4e87f01c0b8268ca6f75491bcb14450d2a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ortamDeiskeni",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.getpostman.com/environments/25813758-b19e88bf-c4d4-42a8-aeac-9dc265fff70a?apikey=PMAK-6440748e9db4765c30ca45f3-4e87f01c0b8268ca6f75491bcb14450d2a",
+					"protocol": "https",
+					"host": [
+						"api",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"environments",
+						"25813758-b19e88bf-c4d4-42a8-aeac-9dc265fff70a"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "PMAK-6440748e9db4765c30ca45f3-4e87f01c0b8268ca6f75491bcb14450d2a"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
