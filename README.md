@@ -1,5 +1,5 @@
 # amedeusStudyCase
-# Frontend test açıklaması
+# Frontend açıklaması
 
 testDifferentFromToValues(): Bu test, "From" ve "To" alanlarına aynı şehir adının girilmesinin hata mesajını doğru şekilde tetikleyip tetiklemediğini kontrol eder.
 
@@ -10,6 +10,7 @@ testFlightListingCountSuccess(): Bu test, başarılı bir uçuş aramasının so
 testFlightListingCountNoFlights(): Bu test, uçuş olmayan bir senaryoyu kontrol eder.
 
 # Backend açıklaması
+Bu testleri JSON dosyası içerisinden bulabilirsiniz
 1."Status code is 200" Testi:
 Amaç: Bu test, HTTP yanıtının durum kodunun 200 (Başarılı) olup olmadığını kontrol eder.
 İşlev: pm.response.to.have.status(200) ifadesi ile HTTP yanıtın durum kodu 200 olup olmadığı kontrol edilir.
